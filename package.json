@@ -1,0 +1,22 @@
+{
+  "name": "@maggo/accord",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.6.9",
+    "@types/prompts": "^2.0.1",
+    "@types/yargs": "^13.0.2",
+    "hummus": "^1.0.105",
+    "prompts": "^2.2.1",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typescript": "^3.5.3",
+    "yargs": "^13.3.0"
+  },
+  "scripts": {
+    "start": "ts-node-dev src/"
+  },
+  "bin": {
+    "accord": "./dist/index.js"
+  }
+}
