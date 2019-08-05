@@ -14,7 +14,8 @@
     "yargs": "^13.3.0"
   },
   "scripts": {
-    "start": "ts-node-dev src/"
+    "start": "ts-node-dev .",
+    "build": "tsc -p tsconfig.json"
   },
   "bin": {
     "accord": "./dist/index.js"
